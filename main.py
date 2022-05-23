@@ -6,11 +6,13 @@ import time
 root = Tk()
 root.title("Auto Clicker")
 root.geometry('500x400')
-root.resizable(False, False)
 
 
 def main():
     # keep track of what time units the numbers are
+    repeat = int(repeat_entry.get())
+    click_type = clicked.get()
+    mouse_button = buttons.get()
     time_list_keys = ["hours", "minutes", "seconds", "milliseconds"]
     sum_time = 0
     time_dict = {time_list_keys[i]: int(root.entries[i].get()) for i in range(len(time_list_keys))}
@@ -24,8 +26,9 @@ def main():
             sum_time += value / 1000
         else:
             sum_time += value
-    click = AutoClicker()
-    time.sleep(5)
+    # click = AutoClicker()
+    # time.sleep(5)
+    print(mouse_button)
 
 
 def show():
