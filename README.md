@@ -1,6 +1,6 @@
 auto_clicker
 ============
-Simple graphical based auto clicker written in Python. Uses the Tkinter library for frontend 
+Simple graphical auto clicker written using Tkinter and written in Python.
 
 # Features 
 - time interval for clicks
