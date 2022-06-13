@@ -13,4 +13,7 @@ Simple graphical auto clicker written using Tkinter and written in Python.
 - keyboard
 - pyautogui
 
+# Limitation 
+- Requires root access because of keyboard library. Read more [here](https://github.com/boppreh/keyboard)
+
 ![click](https://user-images.githubusercontent.com/69723902/169711698-d5970d94-59f8-4361-a17f-ab2d0b8d9ca2.png)
