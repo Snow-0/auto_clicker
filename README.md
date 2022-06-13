@@ -15,6 +15,6 @@ Simple graphical auto clicker written Python.
 - tkinter
 
 # Limitation 
-- Requires root access because of keyboard library. Read more [here](https://github.com/boppreh/keyboard)
+- Requires root access in linux because of keyboard library. Read more [here](https://github.com/boppreh/keyboard)
 
 ![click](https://user-images.githubusercontent.com/69723902/169711698-d5970d94-59f8-4361-a17f-ab2d0b8d9ca2.png)
