@@ -1,6 +1,6 @@
 auto_clicker
 ============
-Simple graphical auto clicker written using Tkinter and written in Python.
+Simple graphical auto clicker written Python.
 
 # Features 
 - time interval for clicks
@@ -12,6 +12,7 @@ Simple graphical auto clicker written using Tkinter and written in Python.
 # Dependencies
 - keyboard
 - pyautogui
+- tkinter
 
 # Limitation 
 - Requires root access because of keyboard library. Read more [here](https://github.com/boppreh/keyboard)
